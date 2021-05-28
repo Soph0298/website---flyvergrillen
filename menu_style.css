@@ -1,0 +1,93 @@
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-weight: 400;
+}
+
+#menu_kort_section p {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  color: rgb(0, 0, 0);
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+#menu_kort_section .carte:nth-child(odd) {
+  background-color: snow;
+}
+#menu_kort_section .carte:nth-child(even) {
+  background-color: var(--brown);
+}
+.carte {
+  display: grid;
+  align-items: center;
+  padding-block: 20px;
+}
+#a_la_carte {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#ekstra {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#kids {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#pomfritter {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#toast {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#ruller {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#sweets {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#drikkevarer {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#polser {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#burger {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#sandwich {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#pita {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#smorrebrod {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
