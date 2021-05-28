@@ -9,6 +9,7 @@ p {
 }
 h2 {
   padding-left: 10px;
+  color: var(--red);
 }
 h4 {
   padding-left: 10px;
@@ -17,16 +18,14 @@ h1 {
   grid-column: 2/3;
   grid-row: 2/3;
   text-align: center;
+  color: var(--red);
 }
 .menu_text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 75px 75px;
 }
-.box0 {
-  grid-column: 1/4;
-  height: 40px;
-}
+
 #menu_kort_section p {
   display: grid;
   grid-template-columns: 1fr auto;
