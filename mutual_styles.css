@@ -17,15 +17,13 @@ header nav ul{
    align-items: center;
    margin: var(--space-xl);
    list-style: none;
-
+}
 
 body {
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     background-color: var(--beige);
     color: var(--darkblue);
-    max-width: 1200px;
-    line-height: 1.5;
-    font-weight: 500;
   }
 
 
@@ -50,22 +48,14 @@ body {
 
 
   h1{
-      
+      font-weight: 700;
   }
 
   h2{
+    font-weight: 500;
 
   }
 
-  h3{
 
-  }
 
-  h4{
-
-  }
-
-  p{
-
-  }
 
