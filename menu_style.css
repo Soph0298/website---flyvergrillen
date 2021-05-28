@@ -86,3 +86,8 @@ p {
   border-color: var(--orange);
   border-width: 10px;
 }
+#smorrebrod {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
