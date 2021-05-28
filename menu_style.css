@@ -19,7 +19,7 @@ p {
   background-color: snow;
 }
 #menu_kort_section .carte:nth-child(even) {
-  background-color: tomato;
+  background-color: var(--brown);
 }
 .carte {
   display: grid;
@@ -28,16 +28,21 @@ p {
 }
 #a_la_carte {
   border-style: solid;
-  border-color: black;
+  border-color: var(--orange);
   border-width: 10px;
 }
 #ekstra {
   border-style: solid;
-  border-color: black;
+  border-color: var(--orange);
   border-width: 10px;
 }
 #kids {
   border-style: solid;
-  border-color: black;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#pomfritter {
+  border-style: solid;
+  border-color: var(--orange);
   border-width: 10px;
 }
