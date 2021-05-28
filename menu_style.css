@@ -23,7 +23,10 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 75px 75px;
 }
-
+.box0 {
+  grid-column: 1/4;
+  height: 40px;
+}
 #menu_kort_section p {
   display: grid;
   grid-template-columns: 1fr auto;
