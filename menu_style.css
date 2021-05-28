@@ -56,3 +56,33 @@ p {
   border-color: var(--orange);
   border-width: 10px;
 }
+#sweets {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#drikkevarer {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#polser {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#burger {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#sandwich {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#pita {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
