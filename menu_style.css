@@ -4,6 +4,10 @@ img {
   height: auto;
 }
 
+p {
+  font-weight: 400;
+}
+
 #menu_kort_section p {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -20,6 +24,7 @@ img {
 .carte {
   display: grid;
   align-items: center;
+  padding-block: 20px;
 }
 #a_la_carte {
   border-style: solid;
@@ -27,6 +32,11 @@ img {
   border-width: 10px;
 }
 #ekstra {
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+}
+#kids {
   border-style: solid;
   border-color: black;
   border-width: 10px;
