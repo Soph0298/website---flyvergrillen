@@ -7,6 +7,22 @@ img {
 p {
   font-weight: 400;
 }
+h2 {
+  padding-left: 10px;
+}
+h4 {
+  padding-left: 10px;
+}
+h1 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+}
+.menu_text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 75px 75px;
+}
 
 #menu_kort_section p {
   display: grid;
