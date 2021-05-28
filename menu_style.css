@@ -46,3 +46,13 @@ p {
   border-color: var(--orange);
   border-width: 10px;
 }
+#toast {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
+#ruller {
+  border-style: solid;
+  border-color: var(--orange);
+  border-width: 10px;
+}
