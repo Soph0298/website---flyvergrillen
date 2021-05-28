@@ -1,19 +1,10 @@
-
-
 #hero_section {
   display: grid;
-  height: 50vh;
+  height: 20vh;
   width: 100%;
   z-index: 0;
   color: white;
   background-color: var(--primary);
-
-}
-
-#hero_section p {
-  font-size: 5rem;
-  grid-area: 1/1;
-  z-index: 1;
 }
 
 #hero_section video {
@@ -23,115 +14,86 @@
   object-fit: cover;
 }
 
-#hero_section .aabningstider {
-  grid-area: 1/1;
-  margin-left: 50vw;
-} 
-
-.aabningstider {
-  background-color: blueviolet;
-  width: 15vw;
-  height: 10vw;
-  border: 15px solid rgb(255, 255, 255);
-
-}
-
-
 #hero_section {
-display: grid;
-height: 40vh;
-width: 100%;
-z-index: 0;
-color: white;
-background-color: black;
+  display: grid;
+  height: 40vh;
+  width: 100%;
+  z-index: 0;
+  color: white;
+  background-color: black;
 }
 
 #hero_section p {
-font-size: 1.2rem;
-grid-area: 1/1;
-z-index: 2;
-margin-top: 20%;
-margin-left: 25%;
+  font-size: 1.2rem;
+  grid-area: 1/1;
+  z-index: 2;
+  place-self: center;
+  text-align: center;
 }
 
 #hero_section video {
-grid-area: 1/1;
-height: 100%;
-width: 100%;
-object-fit: cover;
-opacity: 0.6;
-z-index: 1;
+  grid-area: 1/1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  z-index: 1;
 }
 
 #hero_section .section_wrapper {
-display: flex;
-flex-direction: row;
-place-content: center;
-text-align: center;
-z-index: 2;
-grid-area: 1/1;
-margin-top: 70%;
-gap: 5%;
-font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  text-align: center;
+  z-index: 2;
+  grid-area: 1/1;
+  gap: 5%;
+  font-size: 0.8rem;
+  place-self: end center;
+  margin: 15px;
 }
 
-.open {
+.knap {
   color: white;
   border-style: solid;
   border-color: white;
   border-width: 1px;
-  width: 30vw;
-  height: 8vw;
   z-index: 1;
   text-align: inherit;
   border-radius: 10px;
-}
-
-.find {
-  color: white;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  width: 30vw;
-  height: 8vw;
-  z-index: 1;
-  text-align: inherit;
-  border-radius: 10px;
+  white-space: nowrap;
 }
 
 #udflugt_section {
   margin-top: 10%;
 }
 
-#udflugt_section a{
+#udflugt_section a {
   background-color: var(--beige);
 }
 
 #anmeldelser_section {
   display: grid;
-  gap: 20%;
 }
 
 #social_media_section {
-  display: grid:
 }
 
 @media (min-width: 610px) {
-
   #udflugt_section {
     display: grid;
     grid-template-columns: 10vw 1fr 10vw;
     grid-template-rows: auto;
-    }
-    
-    #udflugt_section .section_wrapper {
+  }
+
+  #udflugt_section .section_wrapper {
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: 3vw;
-    }
-    
-    #udflugt_section img {
+  }
+
+  #udflugt_section img {
     grid-column: 2/3;
-    } 
+  }
 }
