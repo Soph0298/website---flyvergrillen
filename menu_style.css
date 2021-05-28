@@ -24,5 +24,10 @@ img {
 #a_la_carte {
   border-style: solid;
   border-color: black;
-  border-width: 20px;
+  border-width: 10px;
+}
+#ekstra {
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
 }
