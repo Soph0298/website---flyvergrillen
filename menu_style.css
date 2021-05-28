@@ -3,3 +3,26 @@ img {
   width: 100%;
   height: auto;
 }
+
+#menu_kort_section p {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  color: rgb(0, 0, 0);
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+#menu_kort_section .carte:nth-child(odd) {
+  background-color: snow;
+}
+#menu_kort_section .carte:nth-child(even) {
+  background-color: tomato;
+}
+.carte {
+  display: grid;
+  align-items: center;
+}
+#a_la_carte {
+  border-style: solid;
+  border-color: black;
+  border-width: 20px;
+}
